@@ -1,0 +1,11 @@
+.header {
+    width: 100vw;
+    height: 60px;
+    color: red;
+    background-color: white
+
+}
+
+.header img {
+    height: 60px;
+}
