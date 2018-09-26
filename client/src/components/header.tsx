@@ -1,13 +1,19 @@
 import * as React from 'react'
-import './header.css'
+import './header.scss'
 
 
 const Header = () => {
 return (
-    <header className ={'header'}>
-        <img src="/assets/img/logo.png" alt="Riley & Kirsten Bateman Logo"/>
-        //look into flexbox for the location of things
-        //Watch PS course on flexbox
+    <header className={'header'}>
+        <img src="/assets/img/logovector.svg" alt="Riley & Kirsten Bateman Logo"/>
+        <div>Our fancy pants website</div>
+        <div className={'links'}>
+            <a href="/home">Home</a>
+            <a href="/resume">Resume</a>
+            <a href="/portfolio">Portfolio</a>
+            <a href="/about">About</a>
+            <a href="/contact">Contact</a>
+        </div>
     </header>
 )
 
