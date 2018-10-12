@@ -3,7 +3,10 @@ import './body.scss'
 
 const Body = () => {
   return (
-    <div>Body</div>
+    <div className={"body"}>
+
+      <img src="/assets/img/Gearcolored.jpg" alt="Gear background"/>
+    </div>
   )
 }
 

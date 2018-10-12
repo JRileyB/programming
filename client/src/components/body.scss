@@ -1,3 +1,33 @@
 // position: relative
 // position: absolute
 //background-image
+.body {
+    
+    color: rgb(244, 11, 11);
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+
+    img {
+        width: auto;
+        height: auto;
+       /* height: 200px;
+        width: 1000px; */
+    }
+
+    .links {
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        line-height: 1;
+        margin-right: 16px;
+
+        a {
+            text-decoration: none;
+            color: black;
+            margin: 8px;
+        }
+    }
+}
