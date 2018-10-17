@@ -6,7 +6,7 @@ const Body = () => {
   return (
     <div className={"body"}>
       <Sidebar />
-      <img src="/assets/img/Gearcolored.jpg" alt="Gear background"/>
+    
     </div>
   )
 }

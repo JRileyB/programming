@@ -1,6 +1,4 @@
-// position: relative
-// position: absolute
-//background-image
+
 .body {
     position: relative;
     color: rgb(244, 11, 11);
@@ -9,12 +7,16 @@
     display: flex;
     justify-content: space-between;
 
-    img {
-        width: auto;
-        height: auto;
-       /* height: 200px;
-        width: 1000px; */
-    }
+    background-image: url("/assets/img/Gearcolored.jpg");
+    background-position: top;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    /*
+    height: 100vw;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    */
 
     .links {
         font-size: 22px;
